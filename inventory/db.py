@@ -1,4 +1,4 @@
-"""SQL layer (resume: SQL / ERP exposure). SQLite so it runs anywhere."""
+"""SQL schema and connection. SQLite, so it runs anywhere with no setup."""
 import sqlite3
 
 SCHEMA = """

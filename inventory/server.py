@@ -1,4 +1,4 @@
-"""Tiny JSON API over http.server (networking). Bearer-token auth + RBAC on every route."""
+"""Small JSON API over http.server. Bearer-token auth and a role check on every route."""
 import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from .security import TokenSigner, can

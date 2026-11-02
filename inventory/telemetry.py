@@ -1,4 +1,4 @@
-"""SCADA/PLC-style telemetry + edge analytics (resume: SCADA/PLC, IoT edge-AI mine-tremor work).
+"""SCADA-style telemetry and edge analytics for smart storage bins.
 
 Smart bins report weight. Two ideas borrowed from industrial systems:
   1. Report-by-exception (deadband): the edge node only transmits when the value moves enough.

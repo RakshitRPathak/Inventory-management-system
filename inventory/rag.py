@@ -1,4 +1,4 @@
-"""RAG assistant (resume: LLM app development, RAG, OpenAI APIs, prompt engineering).
+"""Question answering over live inventory data (retrieval-augmented generation).
 
 Pipeline: build documents from live DB rows -> TF-IDF retrieval -> grounded prompt -> LLM.
 Works offline (extractive fallback); set OPENAI_API_KEY to use the OpenAI chat API.
